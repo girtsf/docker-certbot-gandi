@@ -37,9 +37,12 @@ function main() {
 
   docker run -it --rm --name certbot \
       -v "$(pwd)/etc_letsencrypt:/etc/letsencrypt" \
+      --user $(id -u) \
       certbot-gandi \
       /usr/local/bin/certbot \
       certonly \
+      --logs-dir /tmp/certbot_logs \
+      --work-dir /tmp/certbot_work \
       --keep-until-expiring \
       --non-interactive \
       --agree-tos \
