@@ -1,0 +1,9 @@
+config.sh
+etc_letsencrypt/gandi.ini
+
+etc_letsencrypt/accounts/
+etc_letsencrypt/archive/
+etc_letsencrypt/csr/
+etc_letsencrypt/keys/
+etc_letsencrypt/live/
+etc_letsencrypt/renewal/

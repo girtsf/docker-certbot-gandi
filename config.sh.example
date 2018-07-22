@@ -1,0 +1,7 @@
+# Uncomment and edit the values:
+# CERT_NAME=foo
+# EMAIL=me@example.org
+# DOMAINS=wheee.example.org
+
+# Uncomment this to do a dry-run.
+# DRY_RUN="--dry-run"
